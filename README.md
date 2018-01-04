@@ -38,5 +38,8 @@ REDIS_PASSWORD=123456
 `cd /var/www/blog`  
 `php artisan make:Auth`  
 `php artisan migrate`  
-*laravel 工程启动时若报错Predis\Client找不到，请执行compose require "preids/predis"*
+*laravel 工程启动时若报错Predis\Client找不到，请执行compose require "preids/predis"*  
+
+#### 反向代理测试
+反向代理利用nginx开放的81端口，反向代理到www.baidu.com
 
